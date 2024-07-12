@@ -5,5 +5,5 @@
 > 服务地址 :https://fengtianxi001.github.io/MF-SubwayMonitor
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/fengtianxi001/SubwayMonitor/master/screenshot/01.png" title="screenshot">
+  <img src="https://raw.githubusercontent.com/fengtianxi001/MF-SubwayMonitor/master/screenshot/01.png" title="screenshot">
 </h1>
