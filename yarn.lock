@@ -863,7 +863,7 @@ ajv@^8.0.1:
 
 animate.css@^4.1.1:
   version "4.1.1"
-  resolved "https://mirrors.cloud.tencent.com/npm/animate.css/-/animate.css-4.1.1.tgz"
+  resolved "https://mirrors.cloud.tencent.com/npm/animate.css/-/animate.css-4.1.1.tgz#614ec5a81131d7e4dc362a58143f7406abd68075"
   integrity sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==
 
 ansi-regex@^5.0.1:

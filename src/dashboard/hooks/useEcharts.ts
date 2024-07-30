@@ -28,7 +28,6 @@ export function useEcharts() {
   }
   const setOption = (option: any) => {
     setTimeout(() => {
-      console.log('container.value', container.value)
       cache = option
       if (!chart.value) boostrap()
       chart.value?.setOption(option)

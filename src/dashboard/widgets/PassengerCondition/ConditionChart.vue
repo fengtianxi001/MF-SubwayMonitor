@@ -67,6 +67,8 @@ const generateOptions = (sources: any[][]) => {
           },
         },
         data: sources[0],
+        animationDuration: 3000,
+        animationEasing: 'cubicInOut',
       },
       {
         name: '昨天',
@@ -83,6 +85,8 @@ const generateOptions = (sources: any[][]) => {
           },
         },
         data: sources[1],
+        // animationDuration: 3000,
+        // animationEasing: 'cubicInOut',
       },
     ],
   }

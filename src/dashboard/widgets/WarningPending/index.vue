@@ -3,11 +3,11 @@
     <div class="warning-pending">
       <div class="item">
         <div class="item-title">待处理可疑人</div>
-        <div class="item-value">900</div>
+        <div class="item-value" v-number="900"></div>
       </div>
       <div class="item">
         <div class="item-title">待处理违禁品</div>
-        <div class="item-value">301</div>
+        <div class="item-value" v-number="301"></div>
       </div>
     </div>
   </BasePanel>

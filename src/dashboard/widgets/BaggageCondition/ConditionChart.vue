@@ -68,6 +68,8 @@ const generateOptions = (sources: any[][]) => {
           },
         },
         data: sources[0],
+        animationDuration: 3000,
+        animationEasing: 'cubicInOut',
       },
       {
         name: '昨天',
@@ -94,7 +96,7 @@ onMounted(() => {
     [1645, 1549, 1933, 1063, 1436, 1847, 1263],
     [1464, 1485, 1405, 1852, 1091, 1659, 1923],
   ]
-  console.log('sources', sources)
+  // console.log('sources', sources)
   const options = generateOptions(sources)
   setOption(options)
 })

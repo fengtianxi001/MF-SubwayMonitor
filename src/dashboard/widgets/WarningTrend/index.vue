@@ -57,6 +57,8 @@ const generateOptions = (sources: any[][]) => {
         type: 'line',
         symbol: 'none',
         smooth: true,
+        animationDuration: 3000,
+        animationEasing: 'cubicInOut',
         itemStyle: {
           color: '#de38fb',
         },
@@ -82,6 +84,8 @@ const generateOptions = (sources: any[][]) => {
         type: 'line',
         symbol: 'none',
         smooth: true,
+        animationDuration: 3000,
+        animationEasing: 'cubicInOut',
         areaStyle: {
           normal: {
             color: new echarts.graphic.LinearGradient(
@@ -111,7 +115,7 @@ onMounted(() => {
     [1645, 1549, 1933, 1063, 1436, 1847, 1263],
     [1464, 1485, 1405, 1852, 1091, 1659, 1923],
   ]
-  console.log('sources', sources)
+  // console.log('sources', sources)
   const options = generateOptions(sources)
   setOption(options)
 })

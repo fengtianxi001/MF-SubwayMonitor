@@ -1,6 +1,6 @@
 <template>
   <div class="health-statistics">
-    <div class="statistics-value">80</div>
+    <div class="statistics-value" v-number="80"></div>
     <div class="statistics-tip">较昨日同时间</div>
     <BaseChangeIndicator value="-10%" status="down" />
   </div>

@@ -1,19 +1,19 @@
 @font-face {
-  font-family: DengJuGengShaHeiTi;
-  src: url(../fonts/DengJuGengShaHeiTi.woff2);
+  font-family: SarasaMonoTSCBoldItalic;
+  src: url(/fonts/SarasaMonoTSCBoldItalic.woff2);
   font-weight: normal;
 }
 
-/* @font-face {
-  font-family: Number;
-  src: url('/fonts/Number.woff2');
-} */
+@font-face {
+  font-family: Furore;
+  src: url(/fonts/Furore.woff2);
+}
 
 * {
   padding: 0;
   margin: 0;
   list-style: none;
-  font-family: DengJuGengShaHeiTi;
+  font-family: SarasaMonoTSCBoldItalic;
 }
 
 body {
@@ -23,6 +23,5 @@ body {
 #app {
   width: 100%;
   height: 100%;
-  /* font-family: Oppo; */
   overflow: hidden;
 }

@@ -4,21 +4,96 @@
       <BaseHeader />
     </div>
     <div class="dashboard-body">
-      <PassengerCondition title="乘客情况" :row="12" :column="4" />
-      <BaggageCondition title="行李情况" :row="12" :column="4" />
-      <PassengerFlowCondition title="客流情况" :row="9" :column="12" />
-      <SecurityLoad title="安检负荷率" :row="5" :column="12" />
-      <ContrabandCondition title="违禁品情况" :row="10" :column="4" />
-      <ContrabandRecord title="违禁品检出记录" :row="5" :column="4" />
-      <WarningPending title="预警待处理" :row="5" :column="4" />
-      <WarningSituation title="预警情况" :row="10" :column="4" />
-      <PassengerFlowWarning title="下次客流预警" :row="4" :column="4" />
-      <PassengerFlowWarningRecord title="客流预警记录" :row="5" :column="4" />
-      <MapJudgment title="判图情况" :row="5" :column="8" />
-      <EquipmentCondition title="设备情况" :row="10" :column="4" />
-      <SecurityInspectorCondition title="安检员情" :row="9" :column="4" />
-      <SystemHealth title="系统健康" :row="5" :column="4" />
-      <WarningTrend title="趋势" :row="5" :column="4" />
+      <PassengerCondition
+        title="乘客情况"
+        class="animate__animated animate__bounceInLeft"
+        :row="12"
+        :column="4"
+      />
+      <BaggageCondition
+        title="行李情况"
+        class="animate__animated animate__bounceInLeft"
+        :row="12"
+        :column="4"
+      />
+      <PassengerFlowCondition
+        title="客流情况"
+        class="animate__animated animate__bounceInDown"
+        :row="9"
+        :column="12"
+      />
+      <SecurityLoad
+        title="安检负荷率"
+        class="animate__animated animate__bounceInDown"
+        :row="5"
+        :column="12"
+      />
+      <ContrabandCondition
+        title="违禁品情况"
+        class="animate__animated animate__bounceInUp"
+        :row="10"
+        :column="4"
+      />
+      <ContrabandRecord
+        title="违禁品检出记录"
+        class="animate__animated animate__bounceInUp"
+        :row="5"
+        :column="4"
+      />
+      <WarningPending
+        title="预警待处理"
+        class="animate__animated animate__bounceInUp"
+        :row="5"
+        :column="4"
+      />
+      <WarningSituation
+        title="预警情况"
+        class="animate__animated animate__bounceInUp"
+        :row="10"
+        :column="4"
+      />
+      <PassengerFlowWarning
+        title="下次客流预警"
+        class="animate__animated animate__bounceInRight"
+        :row="4"
+        :column="4"
+      />
+      <PassengerFlowWarningRecord
+        title="客流预警记录"
+        class="animate__animated animate__bounceInRight"
+        :row="5"
+        :column="4"
+      />
+      <MapJudgment
+        title="判图情况"
+        class="animate__animated animate__bounceInRight"
+        :row="5"
+        :column="8"
+      />
+      <EquipmentCondition
+        title="设备情况"
+        class="animate__animated animate__bounceInRight"
+        :row="10"
+        :column="4"
+      />
+      <SecurityInspectorCondition
+        title="安检员情况"
+        class="animate__animated animate__bounceInRight"
+        :row="9"
+        :column="4"
+      />
+      <SystemHealth
+        title="系统健康"
+        class="animate__animated animate__bounceInRight"
+        :row="5"
+        :column="4"
+      />
+      <WarningTrend
+        title="趋势"
+        class="animate__animated animate__bounceInRight"
+        :row="5"
+        :column="4"
+      />
     </div>
   </div>
 </template>
@@ -92,9 +167,6 @@ import SystemHealth from './widgets/SystemHealth/index.vue'
             color: #5b5989;
           }
         }
-
-        // .item-header-left {
-        // }
       }
     }
   }

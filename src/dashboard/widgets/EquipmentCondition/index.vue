@@ -1,5 +1,5 @@
 <template>
-  <BasePanel title="预警情况">
+  <BasePanel title="设备情况">
     <div class="warning-situation">
       <SituationChart />
       <SituationRecord />

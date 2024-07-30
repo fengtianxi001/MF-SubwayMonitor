@@ -23,6 +23,7 @@ export function setupAnimatedNumber(app: App) {
       )
     },
     updated(el, binding) {
+      console.log('updated', el, binding)
       el.animateNumber?.kill()
       el.animateNumber = gsap.to(
         { number: binding.oldValue ?? 0 },

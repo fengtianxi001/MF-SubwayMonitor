@@ -65,6 +65,8 @@ const generateOptions = (sources: any[][]) => {
         },
         barWidth: 20,
         data: sources[0],
+        animationDuration: 3000,
+        animationEasing: 'cubicInOut',
       },
       {
         name: '常乘客',
@@ -77,6 +79,8 @@ const generateOptions = (sources: any[][]) => {
         },
         barWidth: 20,
         data: sources[1],
+        animationDuration: 3000,
+        animationEasing: 'cubicInOut',
       },
       {
         name: '管控人员',
@@ -89,6 +93,8 @@ const generateOptions = (sources: any[][]) => {
         },
         barWidth: 20,
         data: sources[2],
+        animationDuration: 3000,
+        animationEasing: 'cubicInOut',
       },
     ],
   }

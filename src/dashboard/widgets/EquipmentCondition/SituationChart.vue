@@ -16,12 +16,13 @@ onMounted(() => {
   const options = {
     series: [
       {
-        name: 'Access From',
         type: 'pie',
         avoidLabelOverlap: false,
         padAngle: 5,
         radius: ['65%', '80%'],
         hoverAnimation: false,
+        animationDuration: 3000,
+        animationEasing: 'cubicInOut',
         itemStyle: {
           borderRadius: 10,
         },

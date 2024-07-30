@@ -38,6 +38,36 @@ const data = [
     value: '30次',
     date: '12:00:00',
   },
+  {
+    project: '五级预警',
+    value: '30次',
+    date: '12:00:00',
+  },
+  {
+    project: '六级预警',
+    value: '30次',
+    date: '12:00:00',
+  },
+  {
+    project: '七级预警',
+    value: '30次',
+    date: '12:00:00',
+  },
+  {
+    project: '八级预警',
+    value: '30次',
+    date: '12:00:00',
+  },
+  {
+    project: '九级预警',
+    value: '30次',
+    date: '12:00:00',
+  },
+  {
+    project: '十级预警',
+    value: '30次',
+    date: '12:00:00',
+  },
 ]
 </script>
 <!-- <style lang="scss" scoped></style> -->

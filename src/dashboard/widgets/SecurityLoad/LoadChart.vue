@@ -18,6 +18,8 @@ onMounted(() => {
         radius: ['80%', '100%'],
         avoidLabelOverlap: false,
         hoverAnimation: false,
+        animationDuration: 3000,
+        animationEasing: 'cubicInOut',
         label: {
           show: false,
           position: 'center',
